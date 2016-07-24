@@ -21,7 +21,11 @@ page '/*.txt', layout: false
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
+  #Use relative URLs
+activate :relative_assets
+
 end
+#Use relative URLs
 
 ###
 # Helpers

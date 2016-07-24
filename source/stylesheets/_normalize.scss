@@ -1,3 +1,20 @@
+
+$red: #ee3e23;
+$redLight: #DB8168;
+$cream: #f2f1dc;
+$teal: #52bfa8;
+$tealDark: #2a5e51;
+$black: #000;
+$white: #fff;
+
+/* gradient */
+
+$color1: #000;
+$color2: #52bfa8;
+$color3: #f2f1dc;
+
+
+
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 
 /**
@@ -17,6 +34,7 @@ html {
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 /* HTML5 display definitions
@@ -114,7 +132,7 @@ a:hover {
 
 abbr[title] {
   border-bottom: none; /* 1 */
-  text-decoration: underline; /* 2 */
+  text-decoration: none; /* 2 */
   text-decoration: underline dotted; /* 2 */
 }
 
@@ -160,7 +178,7 @@ h1 {
 
 mark {
   background-color: #ff0;
-  color: #000;
+  color: $cream;
 }
 
 /**
