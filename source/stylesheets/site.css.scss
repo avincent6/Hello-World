@@ -14,8 +14,12 @@
 }
 
 /*-------------- PAGE WRAP-------------- */
+p, a {
+	font-size: 14px;
+}
 
 html, body {
+
 }
 
 #pageWrap { /* Pushes footer to bottom */
@@ -54,7 +58,7 @@ a {
 		&.link-btn {
 			border: 1px solid $redLight;
 			border-radius: 0;
-			padding: 0.75em 0.7em;
+			padding: 15px 20px;
 			color: $redLight;
 			text-decoration: none;
 			transition: color 0.1s linear;
@@ -85,44 +89,22 @@ body {
   background-size: cover;
   text-align: center;
   font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1em;
+  font-size: 14px;
   color: $cream;
   margin: 0;
   padding: 0;
 }
 .logo img {
-  height: 18.75em;
+  height: 20px;
 }
 h1 {
   color: $cream;
   font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.8em;
+  font-size: 36px;
   font-weight: 400;
   margin: 0;
 }
-.doc {
-  margin: 0;
-  font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.1em;
-  font-weight: 300;
-  a {
-    &.link-btn {
-      border: 1px solid $redLight;
-      border-radius: 0;
-      padding: 0.75em 0.7em;
-      color: $redLight;
-      text-decoration: none;
-      transition: color 0.1s linear;
 
-      &:hover {
-        background: $redLight;
-        color: $cream;
-        transition: all 0.15s linear;
-      }
-
-    }
-  }
-}
 .welcome {
   -webkit-animation-name: welcome;
   -webkit-animation-duration: 0.9s;
