@@ -15,7 +15,7 @@
 
 /*-------------- PAGE WRAP-------------- */
 p, a {
-	font-size: 14px;
+	font-size: 16px;
 }
 
 html, body {
@@ -56,16 +56,17 @@ a {
 			padding: none;
 		}
 		&.link-btn {
-			border: 1px solid $redLight;
+			border: none;
 			border-radius: 0;
 			padding: 15px 20px;
-			color: $redLight;
+			color: $cream;
 			text-decoration: none;
 			transition: color 0.1s linear;
+			background: $red;
 
 			&:hover {
-				background: $redLight;
-				color: $cream;
+				background: $cream;
+				color: $red;
 				transition: all 0.15s linear;
 			}
 
@@ -89,7 +90,7 @@ body {
   background-size: cover;
   text-align: center;
   font-family: "Quicksand", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: $cream;
   margin: 0;
   padding: 0;
